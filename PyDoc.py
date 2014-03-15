@@ -21,7 +21,7 @@ class PythonThreeDocCommand(sublime_plugin.TextCommand):
                     if version_info[0] == 2:
                         url = urllib.quote_plus(url) # url encode Python 2 interpreter
                     else:
-                        url = urllib.urlparse(url).geturl() # url encode Python 3 interpreter
+                        url = urllib.parse.urlparse(url).geturl() # url encode Python 3 interpreter
                     print("PyDOC: Performing search for Python 3 documentation on the keyword, '" + needle + "'")
                     webbrowser.open(url)
             else:
@@ -44,7 +44,7 @@ class PythonTwoDocCommand(sublime_plugin.TextCommand):
                     if version_info[0] == 2:
                         url = urllib.quote_plus(url) # url encode Python 2 interpreter
                     else:
-                        url = urllib.urlparse(url).geturl() # url encode Python 3 interpreter
+                        url = urllib.parse.urlparse(url).geturl() # url encode Python 3 interpreter
                     print("PyDOC: Performing search for Python 2 documentation on the keyword, '" + needle + "'")
                     webbrowser.open(url)
             else:
