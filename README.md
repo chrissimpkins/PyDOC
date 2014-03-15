@@ -20,3 +20,10 @@ Cmd + Shift + P
 ```
 Ctrl + Shift + P
 ```
+
+Type `install` and select the menu item, `Package Control: Install Package`.
+
+Type `PyDOC` and select the PyDOC package that is displayed.  This will install the package in your editor.
+
+## Use PyDOC
+
