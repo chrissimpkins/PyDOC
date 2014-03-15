@@ -5,10 +5,7 @@ import sublime
 import sublime_plugin
 import webbrowser
 from sys import version_info
-if version_info[0] == 2:
-    import urllib
-else:
-    from urllib.parse import urlparse
+import urllib
 
 # Python 3 Documentation Search
 class PythonThreeDocCommand(sublime_plugin.TextCommand):
@@ -24,7 +21,7 @@ class PythonThreeDocCommand(sublime_plugin.TextCommand):
                     if version_info[0] == 2:
                         url = urllib.quote_plus(url) # url encode Python 2 interpreter
                     else:
-                        url = urlparse(url).geturl() # url encode Python 3 interpreter
+                        url = urllib.urlparse(url).geturl() # url encode Python 3 interpreter
                     print("PyDOC: Performing search for Python 3 documentation on the keyword, '" + needle + "'")
                     webbrowser.open(url)
             else:
@@ -47,7 +44,7 @@ class PythonTwoDocCommand(sublime_plugin.TextCommand):
                     if version_info[0] == 2:
                         url = urllib.quote_plus(url) # url encode Python 2 interpreter
                     else:
-                        url = urlparse(url).geturl() # url encode Python 3 interpreter
+                        url = urllib.urlparse(url).geturl() # url encode Python 3 interpreter
                     print("PyDOC: Performing search for Python 2 documentation on the keyword, '" + needle + "'")
                     webbrowser.open(url)
             else:
