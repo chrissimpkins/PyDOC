@@ -53,7 +53,7 @@ Ctrl-3
 
 Select a built-in Python object in your editor text then the command palette keybinding (see above) to open the command palette.  Type 'pydoc' and then select either `Python 2 Doc Search (PyDOC)` or `Python 3 Doc Search (PyDOC)`.
 
-### License
+## License
 
 [MIT License](https://github.com/chrissimpkins/PyDOC/blob/master/LICENSE)
 
