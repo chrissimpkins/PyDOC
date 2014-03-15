@@ -31,11 +31,11 @@ Type `PyDOC` and select the PyDOC package that is displayed.  This will install 
 
 ### Search with Right Click Menu
 
-Select a built-in Python object in your Python script text, then use the `Python 2 Doc Search` or `Python 3 Doc Search` menu item in the right click menu.
+Select a built-in Python object in your editor text, then use the `Python 2 Doc Search` or `Python 3 Doc Search` menu item in the right click menu.
 
 ### Search with Keybinding
 
-Select a built-in Python object in your Python script text, then use one of the following keybindings to perform the search:
+Select a built-in Python object in your editor text, then use one of the following keybindings to perform the search:
 
 #### Python 2 Keybinding
 
@@ -51,6 +51,6 @@ Ctrl-3
 
 ### Search with the Command Palette
 
-Select text in the editor then the command palette keybinding (see above) to open the command palette.  Type 'pydoc' and then select either `Python 2 Doc Search (PyDOC)` or `Python 3 Doc Search (PyDOC)`.
+Select a built-in Python object in your editor text then the command palette keybinding (see above) to open the command palette.  Type 'pydoc' and then select either `Python 2 Doc Search (PyDOC)` or `Python 3 Doc Search (PyDOC)`.
 
 
