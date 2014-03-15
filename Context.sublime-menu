@@ -1,0 +1,4 @@
+[
+	{"caption": "Python 2 Doc Search","command": "python_two_doc" },
+	{"caption": "Python 3 Doc Search", "command": "python_three_doc"}
+]

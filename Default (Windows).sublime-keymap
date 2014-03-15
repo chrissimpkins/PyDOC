@@ -1,0 +1,8 @@
+[
+    {
+        "keys": ["ctrl+3"], "command": "python_three_doc"
+    },
+    {
+    	"keys": ["ctrl+2"], "command": "python_two_doc"
+    }
+]
