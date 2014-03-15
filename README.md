@@ -81,7 +81,7 @@ Having a problem? Let's fix it.  Here are a few steps that will lead to the most
 
 1. Make sure that you selected text in the editor before attempting to use PyDOC.  It's not that good (yet...).
 
-2. Open the Sublime Text console with <code>Ctrl-`</code> or <code>View -> Show Console</code>, then run PyDOC again.  It generally provides helpful hints for problems and any exceptions that are raised will be displayed here.
+2. Open the Sublime Text console with <code>Ctrl-`</code> or <code>View -> Show Console</code>, then run PyDOC again.  It generally provides helpful hints for problems and any exceptions that are raised will be displayed.
 
 3. Submit the issue on [the GitHub repository](https://github.com/chrissimpkins/PyDOC/issues) with as much detail as you can provide.  Please paste the console ouptut for any exceptions that are raised.
 
