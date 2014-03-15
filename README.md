@@ -5,7 +5,7 @@ PyDOC
 
 ## About
 
-PyDOC allows you to search Python 2 or Python 3 documentation on [http://docs.python.org](http://docs.python.org/) for selected text in the Sublime Text editor.  A browser window is launched (in your default browser), using your selected text as the query term for the Python 2 or Python 3 documentation.
+PyDOC allows you to search Python 2 or Python 3 documentation on [http://docs.python.org](http://docs.python.org/) for selected built-in Python modules, classes, methods, and functions in the Sublime Text editor.  A browser window is launched (in your default browser), using your selected text as the query term for the Python 2 or Python 3 documentation.
 
 ## Install PyDOC
 
@@ -27,3 +27,22 @@ Type `PyDOC` and select the PyDOC package that is displayed.  This will install 
 
 ## Use PyDOC
 
+### Search with Right Click Menu
+
+Select a built-in Python object in your Python script text, then use the `Python 2 Doc Search` or `Python 3 Doc Search` menu item.
+
+### Search with Keybinding
+
+Select a built-in Python object in your Python script text, then use one of the following keybindings to perform the search:
+
+#### Python 2 Keybinding
+
+```
+Ctrl-2
+```
+
+#### Python 3 Keybinding
+
+```
+Ctrl-3
+```
