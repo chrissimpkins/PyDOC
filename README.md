@@ -11,7 +11,7 @@ By default, the most recent Python 2 or Python 3 release documentation is used.
 
 ## Install PyDOC
 
-PyDOC can be installed using Sublime Package Control.  Open the command palette with:
+PyDOC can be installed using [Sublime Package Control](https://sublime.wbond.net/).  Open the command palette with:
 
 #### Mac OSX
 ```
