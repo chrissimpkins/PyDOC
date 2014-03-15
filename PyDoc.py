@@ -17,10 +17,11 @@ class PythonThreeDocCommand(sublime_plugin.TextCommand):
                 if len(needle) == 0:
                     print("PyDOC Plugin Error: There was no selected string for the Python 3 documentation search.  Please select a string in your document and try again.")
                 else:
-                    url = "http://docs.python.org/3/search.html?q=" + needle + "&check_keywords=yes"
                     if version_info[0] == 2:
-                        url = urllib.quote_plus(url) # url encode Python 2 interpreter
+                        needle = urllib.quote_plus(needle) # url encode Python 2 interpreter
+                        url = "http://docs.python.org/3/search.html?q=" + needle + "&check_keywords=yes"
                     else:
+                        url = "http://docs.python.org/3/search.html?q=" + needle + "&check_keywords=yes"
                         url = urllib.parse.urlparse(url).geturl() # url encode Python 3 interpreter
                     print("PyDOC: Performing search for Python 3 documentation on the keyword, '" + needle + "'")
                     webbrowser.open(url)
@@ -40,10 +41,11 @@ class PythonTwoDocCommand(sublime_plugin.TextCommand):
                 if len(needle) == 0:
                     print("PyDOC Plugin Error: There was no selected string for the Python 2 documentation search.  Please select a string in your document and try again.")
                 else:
-                    url = "http://docs.python.org/2/search.html?q=" + needle + "&check_keywords=yes"
                     if version_info[0] == 2:
-                        url = urllib.quote_plus(url) # url encode Python 2 interpreter
+                        needle = urllib.quote_plus(needle)
+                        url = "http://docs.python.org/2/search.html?q=" + needle + "&check_keywords=yes" # url encode Python 2 interpreter
                     else:
+                        url = "http://docs.python.org/2/search.html?q=" + needle + "&check_keywords=yes"
                         url = urllib.parse.urlparse(url).geturl() # url encode Python 3 interpreter
                     print("PyDOC: Performing search for Python 2 documentation on the keyword, '" + needle + "'")
                     webbrowser.open(url)
@@ -52,3 +54,4 @@ class PythonTwoDocCommand(sublime_plugin.TextCommand):
         except Exception as e:
             print("PyDOC Plugin Error: There was an error during the execution of the plugin.\n")
             raise e
+
