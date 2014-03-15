@@ -48,3 +48,9 @@ Ctrl-2
 ```
 Ctrl-3
 ```
+
+### Search with the Command Palette
+
+Select text in the editor then the command palette keybinding (see above) to open the command palette.  Type 'pydoc' and then select either `Python 2 Doc Search (PyDOC)` or `Python 3 Doc Search (PyDOC)`.
+
+
