@@ -29,7 +29,7 @@ Type `PyDOC` and select the PyDOC package that is displayed.  This will install 
 
 ### Search with Right Click Menu
 
-Select a built-in Python object in your Python script text, then use the `Python 2 Doc Search` or `Python 3 Doc Search` menu item.
+Select a built-in Python object in your Python script text, then use the `Python 2 Doc Search` or `Python 3 Doc Search` menu item in the right click menu.
 
 ### Search with Keybinding
 
