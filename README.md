@@ -87,6 +87,8 @@ Having a problem? Let's fix it.  Here are a few steps that will lead to the most
 
 ## Changes
 
+v1.2.2 - updated user status and error messages, added install docs
+
 v1.2.1 - added horizontal bar dividers to the context menu
 
 v.1.2.0 - updated Python 2 & 3 URL handling
