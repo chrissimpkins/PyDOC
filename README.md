@@ -85,6 +85,21 @@ Having a problem? Let's fix it.  Here are a few steps that will lead to the most
 
 3. Submit the issue on [the GitHub repository](https://github.com/chrissimpkins/PyDOC/issues) with as much detail as you can provide.  Please paste the console ouptut for any exceptions that are raised.
 
+## Changes
+
+v1.2.1 - added horizontal bar dividers to the context menu
+
+v.1.2.0 - updated Python 2 & 3 URL handling
+
+v1.1.1 - modified ST3 URL encoding (Python 3)
+
+v.1.1.0 - modified ST2 URL encoding (Python 2)
+
+v.1.0.1 - updated menu items
+
+v1.0.0 - initial release
+
+
 ## License
 
 [MIT License](https://github.com/chrissimpkins/PyDOC/blob/master/LICENSE)
