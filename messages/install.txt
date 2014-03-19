@@ -1,0 +1,62 @@
+  _____       _____   ____   _____
+ |  __ \     |  __ \ / __ \ / ____|
+ | |__) |   _| |  | | |  | | |
+ |  ___/ | | | |  | | |  | | |
+ | |   | |_| | |__| | |__| | |____
+ |_|    \__, |_____/ \____/ \_____|
+         __/ |
+        |___/
+
+
+Hi there.  Thanks for installing the PyDOC plugin for Sublime Text.
+
+ABOUT
+-----
+
+PyDOC is a plugin for Sublime Text 2 & 3 that allows you to open Python 2 & 3 documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org.  This is opened in your default browser.  By default, the documentation for the current release version of Python 2 or 3 is opened.
+
+HOW TO USE PYDOC
+----------------
+
+Select a Python built-in in your script, then use one of the following:
+
+  1) Right click context menu - right click, and select either 'Python 2 Doc Search' or 'Python 3 Doc Search'
+
+  2) Keybinding - enter `Ctrl-2` (for Python 2 docs) or `Ctrl-3` (for Python 3 docs)
+
+  3) Command Palette - enter `Cmd-Shift-P` or `Ctrl-Shift-P` to open the Command Palette, then type 'pydoc' & select either 'Python 2 Doc Search' or 'Python 3 Doc Search'
+
+TRY IT
+------
+
+Here ya go... a Python 3 example:
+
+from enum import Enum
+
+class Color(Enum):
+    red = 1
+    green = 2
+    blue = 3
+
+
+And from Python 2:
+
+import urllib2
+
+print(urllib2.urlopen('http://www.python.org/').read())
+
+
+DOCUMENTATION
+-------------
+
+  Docs are available @ https://github.com/chrissimpkins/PyDOC
+
+ISSUES
+------
+
+  Find a bug? Let's fix it. Submit the problem as a new issue on the GitHub repo @ https://github.com/chrissimpkins/PyDOC/issues
+
+CONTACT
+-------
+
+  Feel free to reach out to me on Twitter @csimpkins for quick questions that don't warrant a full issue report.
