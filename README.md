@@ -87,6 +87,8 @@ Having a problem? Let's fix it.  Here are a few steps that will lead to the most
 
 ## Changes
 
+v.1.2.3 - added PyDOC to main menu for access to README and keybindings
+
 v1.2.2 - updated user status and error messages, added install docs
 
 v1.2.1 - added horizontal bar dividers to the context menu
