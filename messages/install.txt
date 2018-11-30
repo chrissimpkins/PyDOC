@@ -13,18 +13,18 @@ Hi there.  Thanks for installing the PyDOC plugin for Sublime Text.
 ABOUT
 -----
 
-PyDOC is a plugin for Sublime Text 2 & 3 that allows you to open Python 2 & 3 documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org.  This is opened in your default browser.  By default, the documentation for the current release version of Python 2 or 3 is opened.
+PyDOC is a plugin for Sublime Text 2 & 3 that allows you to open Python 2, 3, and Numpy/Scipy/Matplotlib documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org and the respective package websites..  This is opened in your default browser.  By default, the documentation for the current release version of each packageis opened.
 
 HOW TO USE PYDOC
 ----------------
 
 Select a Python built-in in your script, then use one of the following:
 
-  1) Right click context menu - right click, and select either 'Python 2 Doc Search' or 'Python 3 Doc Search'
+  1) Right click context menu - right click, and select either 'Python 2 Doc Search', 'Python 3 Doc Search', 'Numpy Doc Search', 'Scipy Doc Search', 'Matplotlib Doc Search'
 
-  2) Keybinding - enter `Ctrl-2` (for Python 2 docs) or `Ctrl-3` (for Python 3 docs)
+  2) Keybinding - enter `Ctrl-2` (for Python 2 docs), `Ctrl-3` (for Python 3 docs), `Ctrl-4` (for Numpy docs), `Ctrl-5` (for Scipy docs), `Ctrl-6` (for matplotlib docs)
 
-  3) Command Palette - enter `Cmd-Shift-P` or `Ctrl-Shift-P` to open the Command Palette, then type 'pydoc' & select either 'Python 2 Doc Search' or 'Python 3 Doc Search'
+  3) Command Palette - enter `Cmd-Shift-P` or `Ctrl-Shift-P` to open the Command Palette, then type 'pydoc' & select any of the aforementioned options in (1).
 
 TRY IT
 ------

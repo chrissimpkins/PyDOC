@@ -2,5 +2,9 @@
 	{ "caption": "-" },
 	{"caption": "Python 2 Doc Search","command": "python_two_doc" },
 	{"caption": "Python 3 Doc Search", "command": "python_three_doc"},
+    { "caption": "Numpy Doc Search", "command": "numpy_doc" },
+    { "caption": "Scipy Doc Search", "command": "scipy_doc"},
+    { "caption": "Matplotlib Doc Search", "command": "matplotlib_doc"},
+    { "caption": "TensorFlow Doc Search", "command": "tensorflow_doc"},
 	{ "caption": "-", "id": "end" }
 ]

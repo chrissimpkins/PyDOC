@@ -4,5 +4,17 @@
     },
     {
     	"keys": ["ctrl+2"], "command": "python_two_doc"
+    },
+    {
+        "keys": ["ctrl+4"], "command": "numpy_doc"
+    },
+    {
+        "keys": ["ctrl+5"], "command": "scipy_doc"
+    },
+    {
+        "keys": ["ctrl+6"], "command": "matplotlib_doc"
+    },
+    {
+        "keys": ["ctrl+7"], "command": "tensorflow_doc"
     }
 ]

@@ -5,9 +5,7 @@ PyDOC
 
 ## About
 
-PyDOC allows you to search Python 2 or Python 3 documentation on [http://docs.python.org](http://docs.python.org/) for built-in Python modules, classes, methods, and functions that are selected in the Sublime Text editor.  A browser window is launched (in your default browser), using your selected text as the query term for the Python 2 or Python 3 documentation.
-
-By default, the most recent Python 2 or Python 3 release documentation is used.
+PyDOC is a plugin for Sublime Text 2 & 3 that allows you to open Python 2, 3, Numpy/Scipy/Matplotlib, and TensorFlow documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org and the respective package websites..  This is opened in your default browser.  By default, the documentation for the current release version of each packageis opened.
 
 ## Install PyDOC
 
@@ -53,7 +51,7 @@ Move the entire `PyDOC` directory into your Sublime Text Packages directory.
 
 ### Search with Right Click Menu
 
-Select a built-in Python object in your editor text, then use the `Python 2 Doc Search` or `Python 3 Doc Search` menu item in the right click menu.
+Select a built-in Python object in your editor text, then use the `Python 2 Doc Search`, `Python 3 Doc Search`, `Numpy Doc Search`, `Scipy Doc Search`, `Matplotlib Doc Search`, or `TensorFlow Doc Search` menu item in the right click menu.
 
 ### Search with Keybinding
 
@@ -70,10 +68,30 @@ Ctrl-2
 ```
 Ctrl-3
 ```
+##### Numpy Documentation Search Keybinding
+
+```
+Ctrl-4
+```
+##### Scipy Documentation Search Keybinding
+
+```
+Ctrl-5
+```
+##### Matplotlib Documentation Search Keybinding
+
+```
+Ctrl-6
+```
+##### TensorFlow Documentation Search Keybinding
+
+```
+Ctrl-7
+```
 
 ### Search with the Command Palette
 
-Select a built-in Python object in your editor text then enter the keybinding to open the command palette (see description above in the Sublime Package Control section).  Type 'pydoc' and then select either `Python 2 Doc Search (PyDOC)` or `Python 3 Doc Search (PyDOC)`.
+Select a built-in Python object in your editor text then enter the keybinding to open the command palette (see description above in the Sublime Package Control section).  Type 'pydoc' and then select either `Python 2 Doc Search (PyDOC)`, `Python 3 Doc Search (PyDOC)`,`Numpy Doc Search (PyDOC)`, `Scipy Doc Search (PyDOC)`, `Matplotlib Doc Search (PyDOC)`, or `TensorFlow Doc Search (PyDOC)`.
 
 ## Issues
 
@@ -86,6 +104,8 @@ Having a problem? Let's fix it.  Here are a few steps that will lead to the most
 3. Submit the issue on [the GitHub repository](https://github.com/chrissimpkins/PyDOC/issues) with as much detail as you can provide.  Please paste the console ouptut for any exceptions that are raised.
 
 ## Changes
+
+v.1.2.4 - [Proposed] PR Submitted: Added support for nearest text to cursor.  Added support for numpy, scipy, maptlotlib, and tensorflow documentation searches.
 
 v.1.2.3 - added PyDOC to main menu for access to README and keybindings
 
