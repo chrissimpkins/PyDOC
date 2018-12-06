@@ -1,11 +1,11 @@
 PyDOC
 =====
 
-#### A Sublime Text 2/3 plugin that supports Python documentation search from selections in the editor.
+#### A Sublime Text 3 plugin that supports Python documentation search from selections in the editor.
 
 ## About
 
-PyDOC is a plugin for Sublime Text 2 & 3 that allows you to open Python 2, 3, Numpy/SciPy/Matplotlib, and TensorFlow documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org and the respective package websites..  This is opened in your default browser.  By default, the documentation for the current release version of each package is opened.
+PyDOC is a plugin for Sublime Text 3 that allows you to open Python 2, 3, Numpy/SciPy/Matplotlib, and TensorFlow documentation from selections in your text editor.  The selected text is used as your query for the official documentation provided on docs.python.org and the respective package websites..  This is opened in your default browser.  By default, the documentation for the current release version of each package is opened.
 
 ## Install PyDOC
 
