@@ -1,0 +1,21 @@
+  _____       _____   ____   _____
+ |  __ \     |  __ \ / __ \ / ____|
+ | |__) |   _| |  | | |  | | |
+ |  ___/ | | | |  | | |  | | |
+ | |   | |_| | |__| | |__| | |____
+ |_|    \__, |_____/ \____/ \_____|
+         __/ |
+        |___/
+
+Hey, hey! PyDOC was updated to v2.0.0.  Here are the changes in this major update...
+
+  1. Added Matplotlib doc search support
+  2. Added Numpy doc search support
+  3. Added SciPy doc search support
+  4. Added TensorFlow doc search support
+
+A big thanks goes out to Jay Stanley for his work on this release!
+
+---
+Did you forget how to use the plugin? Never fear... Docs are always available @ https://sublime.wbond.net/packages/PyDOC
+Find a bug? Submit it as a new issue on the GitHub repo @ https://github.com/chrissimpkins/pyDOC/issues
