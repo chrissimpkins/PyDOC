@@ -13,6 +13,7 @@ Hey, hey! PyDOC was updated to v2.0.0.  Here are the changes in this major updat
   2. Added Numpy doc search support
   3. Added SciPy doc search support
   4. Added TensorFlow doc search support
+  5. Added support for nearest text to cursor
 
 A big thanks goes out to Jay Stanley for his work on this release!
 
