@@ -59,7 +59,7 @@ class TensorflowDocCommand(DocSearch):
     def run(self, edit):
         url = "https://www.tensorflow.org/s/results/?q="
         name = "TensorFlow"
-        extra = ''
+        extra = ""
         super().run(edit, url, name, extra)
 
 
